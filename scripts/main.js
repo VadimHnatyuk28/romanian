@@ -10,8 +10,3 @@ navs.forEach((element) => {
     element.classList.remove("activeBtn");
   });
 });
-
-let root = document.querySelector(".root");
-function a() {
-  root.innerHTML = `<h1>Good</h1>`;
-}
