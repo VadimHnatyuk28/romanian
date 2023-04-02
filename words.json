@@ -1,0 +1,97 @@
+[
+  {
+    "topic": "Meserii",
+    "words": [
+      {
+        "rom": "Profesie",
+        "ukr": "Професія"
+      },
+      {
+        "rom": "Contabil",
+        "ukr": "Бухгалтер"
+      },
+      {
+        "rom": "Medic",
+        "ukr": "Медик"
+      },
+      {
+        "rom": "Doctor",
+        "ukr": "Лікар"
+      },
+      {
+        "rom": "Ziarist",
+        "ukr": "Журналіст"
+      },
+      {
+        "rom": "Secretar",
+        "ukr": "Секретар"
+      },
+      {
+        "rom": "Inginer",
+        "ukr": "Інжинер"
+      },
+      {
+        "rom": "Farmacist",
+        "ukr": "Фармацевт"
+      }
+    ]
+  },
+  {
+    "topic": "Haine",
+    "words": [
+      {
+        "rom": "Butoni manșetă",
+        "ukr": "Запонки"
+      },
+      {
+        "rom": "Broșă",
+        "ukr": "Брошка"
+      },
+      {
+        "rom": "Lanț",
+        "ukr": "Ланцюжок"
+      },
+      {
+        "rom": "Cercei",
+        "ukr": "Сирежки"
+      },
+      {
+        "rom": "Brățară",
+        "ukr": "Браслет"
+      },
+      {
+        "rom": "Colier",
+        "ukr": "Кольє"
+      },
+      {
+        "rom": "Inel",
+        "ukr": "Каблучка"
+      },
+      {
+        "rom": "Ceas",
+        "ukr": "Годинник"
+      }
+    ]
+  },
+  {
+    "topic": "Acasă",
+    "words": [
+      {
+        "rom": "Mobilă",
+        "ukr": "Меблі"
+      },
+      {
+        "rom": "Apartament",
+        "ukr": "Квартира"
+      },
+      {
+        "rom": "Casă",
+        "ukr": "Дім"
+      },
+      {
+        "rom": "Acasă",
+        "ukr": "Вдома"
+      }
+    ]
+  }
+]
