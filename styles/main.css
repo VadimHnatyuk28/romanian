@@ -1,13 +1,14 @@
-.activeBtn {
-  background-color: #bbbbbb;
-}
-
 .main.navigation {
   padding: 15px;
   border-radius: 5px;
   text-decoration: none;
   border: none;
   font-weight: bold;
+  color: black;
+}
+
+.activeBtn {
+  background-color: #bbbbbb;
 }
 
 .romanian-word,
