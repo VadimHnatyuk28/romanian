@@ -14,7 +14,7 @@ function render() {
         <div class="flip-card">
         <div class="flip-card-inner">
             <div class="flip-card-front">
-            <h1 >Слово з теми: ${toUpperFirstLetter(
+            <h1 class="card-header" >Слово з теми: ${toUpperFirstLetter(
               postsData[numberOfTopic].topic
             )}</h1>
             <h1 class="romanian-word">${toUpperFirstLetter(
@@ -22,7 +22,9 @@ function render() {
             )}</h1>
             </div>
             <div class="flip-card-back">
-            <h1 >Слово з теми: ${postsData[numberOfTopic].topic}</h1>
+            <h1 class="card-header">Слово з теми: ${
+              postsData[numberOfTopic].topic
+            }</h1>
             <h1 class="ukrainian-word">${toUpperFirstLetter(
               postsData[numberOfTopic].words[numberOfWord].ukr
             )}</h1>
@@ -50,5 +52,10 @@ function getRandomInt(min, max) {
 function toUpperFirstLetter(str) {
   return str.charAt(0).toUpperCase() + str.slice(1);
 }
+
+let mainBtn = document.querySelector(".learning");
+mainBtn.addEventListener("click", function () {
+  render();
+});
 
 render();

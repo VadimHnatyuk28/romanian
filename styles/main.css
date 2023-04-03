@@ -1,14 +1,18 @@
 .main.navigation {
   padding: 15px;
-  border-radius: 5px;
+  border-radius: 15px;
   text-decoration: none;
   border: none;
   font-weight: bold;
   color: black;
 }
 
+.card-header {
+  font-size: 20px;
+}
+
 .activeBtn {
-  background-color: #bbbbbb;
+  background-color: #f0f0f0;
 }
 
 .romanian-word,
@@ -23,6 +27,10 @@
   text-align: center;
 }
 
+.footer {
+  height: 150px;
+}
+
 .content {
   width: min-content;
   display: block;
@@ -35,6 +43,24 @@
   justify-content: space-around;
   text-align: justify;
   margin-top: 5px;
+}
+
+.card {
+  width: 400px;
+  height: 200px;
+  background-color: #bbb;
+  display: block;
+  margin: 0 auto;
+  border-radius: 3px;
+}
+/* .card > .romanian-word {
+  margin: 0;
+  margin-top: 69px;
+} */
+.word-btn {
+  margin-top: 40px;
+  padding: 6px;
+  width: 100px;
 }
 
 /* 
@@ -121,6 +147,10 @@ Style for nexWord btn
   margin-top: -120%;
   opacity: 0;
   transition: all 0.8s;
+}
+
+.nextWord:hover {
+  background-color: #367939;
 }
 
 .nextWord:active:after {
