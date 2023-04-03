@@ -14,12 +14,18 @@ function render() {
         <div class="flip-card">
         <div class="flip-card-inner">
             <div class="flip-card-front">
-            <h1 >Слово з теми: ${postsData[numberOfTopic].topic}</h1>
-            <h1 class="romanian-word">${postsData[numberOfTopic].words[numberOfWord].rom}</h1>
+            <h1 >Слово з теми: ${toUpperFirstLetter(
+              postsData[numberOfTopic].topic
+            )}</h1>
+            <h1 class="romanian-word">${toUpperFirstLetter(
+              postsData[numberOfTopic].words[numberOfWord].rom
+            )}</h1>
             </div>
             <div class="flip-card-back">
             <h1 >Слово з теми: ${postsData[numberOfTopic].topic}</h1>
-            <h1 class="ukrainian-word">${postsData[numberOfTopic].words[numberOfWord].ukr}</h1>
+            <h1 class="ukrainian-word">${toUpperFirstLetter(
+              postsData[numberOfTopic].words[numberOfWord].ukr
+            )}</h1>
             </div>
         </div>
         </div>
@@ -39,6 +45,10 @@ function getRandomInt(min, max) {
   min = Math.ceil(min);
   max = Math.floor(max);
   return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+function toUpperFirstLetter(str) {
+  return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
 render();

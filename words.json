@@ -93,5 +93,26 @@
         "ukr": "Вдома"
       }
     ]
+  },
+  {
+    "topic": "Familia mea",
+    "words": [
+      {
+        "rom": "mamă",
+        "ukr": "Мама"
+      },
+      {
+        "rom": "tată",
+        "ukr": "тато"
+      },
+      {
+        "rom": "fiu",
+        "ukr": "син"
+      },
+      {
+        "rom": "fecior",
+        "ukr": "син"
+      }
+    ]
   }
 ]
