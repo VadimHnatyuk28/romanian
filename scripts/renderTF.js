@@ -1,21 +1,95 @@
 import getData from "./getData.js";
 const postsData = await getData;
 let cont = document.querySelector(".root");
+let count = 0;
 
 function render() {
+  let countOfTopic = postsData.length;
+
+  let correctNumberOfTopic = getRandomInt(0, countOfTopic - 1);
+  let correctNumberOfWord = getRandomInt(
+    0,
+    postsData[correctNumberOfTopic].words.length - 1
+  );
+
+  let inCorrectFirstNumberOfTopic = getRandomInt(0, countOfTopic - 1);
+  let inCorrectFirstNumberOfWord = getRandomInt(
+    0,
+    postsData[inCorrectFirstNumberOfTopic].words.length - 1
+  );
+
+  let inCorrectSecondNumberOfTopic = getRandomInt(0, countOfTopic - 1);
+  let inCorrectSecondNumberOfWord = getRandomInt(
+    0,
+    postsData[inCorrectSecondNumberOfTopic].words.length - 1
+  );
+
+  let trueArray = shuffle([
+    postsData[correctNumberOfTopic].words[correctNumberOfWord],
+    postsData[inCorrectFirstNumberOfTopic].words[inCorrectFirstNumberOfWord],
+    postsData[inCorrectSecondNumberOfTopic].words[inCorrectSecondNumberOfWord],
+  ]);
+
+  const [first, second, third] = trueArray;
+
   cont.style.display = "block";
 
   cont.innerHTML = `
 <div class="content">
     <div class="card">
-        <h1 class="card-header" >Слово з теми:</h1>
-        <h1 class="romanian-word">asd</h1>
-        <button type="text" class="word-btn">subm</button>
-        <button type="text" class="word-btn">subm</button>
-        <button type="text" class="word-btn">subm</button>
+        <h1 class="card-header" >Слово з теми: ${toUpperFirstLetter(
+          postsData[correctNumberOfTopic].topic
+        )}</h1>
+        <h1 class="romanian-word">${toUpperFirstLetter(
+          postsData[correctNumberOfTopic].words[correctNumberOfWord].rom
+        )}</h1>
+        <button type="text" class="word-btn" data="${
+          first.rom
+        }">${toUpperFirstLetter(first.ukr)}</button>
+        <button type="text" class="word-btn" data="${
+          second.rom
+        }" >${toUpperFirstLetter(second.ukr)}</button>
+        <button type="text" class="word-btn" data="${
+          third.rom
+        }">${toUpperFirstLetter(third.ukr)}</button>
     </div>
 </div>
+<h2 class="rating">У вас ${count} балів</h2>
     `;
+
+  let btns = document.querySelectorAll(".word-btn");
+  btns.forEach((element) => {
+    element.addEventListener("click", () => {
+      console.log(element.attributes[2].nodeValue);
+      let trueWord = document.querySelector(".romanian-word");
+      console.log(trueWord.textContent);
+      let rate = document.querySelector(".rating");
+
+      if (
+        element.attributes[2].nodeValue.toLowerCase() ==
+        trueWord.textContent.toLocaleLowerCase()
+      ) {
+        count++;
+        alert("good");
+        render();
+      } else {
+        count--;
+        alert("bad");
+        rate.textContent = `У вас ${count} балів`;
+      }
+    });
+  });
+}
+
+function shuffle(arr) {
+  var j, temp;
+  for (var i = arr.length - 1; i > 0; i--) {
+    j = Math.floor(Math.random() * (i + 1));
+    temp = arr[j];
+    arr[j] = arr[i];
+    arr[i] = temp;
+  }
+  return arr;
 }
 
 let mainBtn = document.querySelector(".trueFalse");

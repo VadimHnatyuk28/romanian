@@ -1,12 +1,12 @@
 import getData from "./getData.js";
 const postsData = await getData;
+let count = 0;
 
 function render() {
   let cont = document.querySelector(".root");
   let countOfTopic = postsData.length;
   let numberOfTopic = getRandomInt(0, countOfTopic - 1);
   let numberOfWord = getRandomInt(0, postsData[numberOfTopic].words.length - 1);
-
   // Rendering of word card
   cont.innerHTML = `
     <div class="content">
@@ -28,15 +28,18 @@ function render() {
             <h1 class="ukrainian-word">${toUpperFirstLetter(
               postsData[numberOfTopic].words[numberOfWord].ukr
             )}</h1>
+            
             </div>
         </div>
         </div>
     </div>
     <button type="button" class="nextWord">Next</button> 
+    <h2>Ви переглянули вже ${count} слів</h2>
     `;
   // Nex word after click on btn
   let nextWord = document.querySelector(".nextWord");
   nextWord.addEventListener("click", function () {
+    count++;
     render();
     console.log(numberOfTopic, numberOfWord);
   });
