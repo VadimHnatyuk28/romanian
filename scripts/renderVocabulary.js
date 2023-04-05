@@ -1,9 +1,9 @@
 import getData from "./getData.js";
 const postsData = await getData;
 let count = 0;
+let cont = document.querySelector(".root");
 
 function render() {
-  let cont = document.querySelector(".root");
   let countOfTopic = postsData.length;
   let numberOfTopic = getRandomInt(0, countOfTopic - 1);
   let numberOfWord = getRandomInt(0, postsData[numberOfTopic].words.length - 1);
@@ -34,6 +34,7 @@ function render() {
         </div>
     </div>
     <button type="button" class="nextWord">Next</button> 
+    
     <h2>Ви переглянули вже ${count} слів</h2>
     `;
   // Nex word after click on btn
