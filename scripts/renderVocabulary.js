@@ -63,3 +63,12 @@ mainBtn.addEventListener("click", function () {
 });
 
 render();
+
+let click = document.querySelector(".burger.navigation.learning");
+let menuBtn = document.querySelector(".menu-btn");
+let menu = document.querySelector(".menu");
+click.addEventListener("click", function () {
+  menuBtn.classList.toggle("active");
+  menu.classList.toggle("active");
+  render();
+});

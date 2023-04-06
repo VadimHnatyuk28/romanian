@@ -1,0 +1,34 @@
+[
+  {
+    "title": "first text",
+    "sentence": [
+      "В школі мені <input type=\"text\" class=\"input_value\" placeholder=\"подобатись\" data-right=\"подобається\" математика/>",
+      "Дякую що <input type=\"text\" class=\"input_value\" placeholder=\"зробити\" data-right=\"зробив\" /> мені домашнє завдання",
+      "Іване, ти будеш <input type=\"text\" class=\"input_value\" placeholder=\"ходити\" data-right=\"йти\" /> завтра до школи"
+    ]
+  },
+  {
+    "title": "second text",
+    "sentence": [
+      "В школі мені <input type=\"text\" class=\"input_value\" placeholder=\"подобатись\" data-right=\"подобається\" математика/>",
+      "Дякую що <input type=\"text\" class=\"input_value\" placeholder=\"зробити\" data-right=\"зробив\" /> мені домашнє завдання",
+      "Іване, ти будеш <input type=\"text\" class=\"input_value\" placeholder=\"ходити\" data-right=\"йти\" /> завтра до школи"
+    ]
+  },
+  {
+    "title": "third text",
+    "sentence": [
+      "В школі мені <input type=\"text\" class=\"input_value\" placeholder=\"подобатись\" data-right=\"подобається\" математика/>",
+      "Дякую що <input type=\"text\" class=\"input_value\" placeholder=\"зробити\" data-right=\"зробив\" /> мені домашнє завдання",
+      "Іване, ти будеш <input type=\"text\" class=\"input_value\" placeholder=\"ходити\" data-right=\"йти\" /> завтра до школи"
+    ]
+  },
+  {
+    "title": "fourth text",
+    "sentence": [
+      "В школі мені <input type=\"text\" class=\"input_value\" placeholder=\"подобатись\" data-right=\"подобається\" математика/>",
+      "Дякую що <input type=\"text\" class=\"input_value\" placeholder=\"зробити\" data-right=\"зробив\" /> мені домашнє завдання",
+      "Іване, ти будеш <input type=\"text\" class=\"input_value\" placeholder=\"ходити\" data-right=\"йти\" /> завтра до школи"
+    ]
+  }
+]

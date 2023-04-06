@@ -66,3 +66,12 @@ function getRandomInt(min, max) {
 function toUpperFirstLetter(str) {
   return str.charAt(0).toUpperCase() + str.slice(1);
 }
+
+let click = document.querySelector(".burger.navigation.write");
+let menuBtn = document.querySelector(".menu-btn");
+let menu = document.querySelector(".menu");
+click.addEventListener("click", function () {
+  menuBtn.classList.toggle("active");
+  menu.classList.toggle("active");
+  render();
+});

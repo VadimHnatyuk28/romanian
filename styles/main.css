@@ -159,3 +159,51 @@ Style for nexWord btn
   opacity: 1;
   transition: 0s;
 }
+
+.word-content {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.text-card {
+  background-color: #bbb;
+  width: 45%;
+  height: 200px;
+  margin: 10px;
+}
+
+.text-current-sentence {
+  margin: 15px;
+}
+
+.true {
+  background-color: green;
+}
+
+.false {
+  background-color: red;
+}
+
+.text-container {
+  text-align: start;
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+.inp-word {
+  margin-top: 20px;
+}
+
+.submit {
+  margin-bottom: 15px;
+}
+
+.text-card > h1,
+h2 {
+  margin-top: 10px;
+}

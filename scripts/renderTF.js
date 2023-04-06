@@ -54,7 +54,7 @@ function render() {
         }">${toUpperFirstLetter(third.ukr)}</button>
     </div>
 </div>
-<h2 class="rating">У вас ${count} балів</h2>
+<h2 class="rating">Ваш рахунок становить ${count} </h2>
     `;
 
   let btns = document.querySelectorAll(".word-btn");
@@ -75,7 +75,7 @@ function render() {
       } else {
         count--;
         alert("bad");
-        rate.textContent = `У вас ${count} балів`;
+        rate.textContent = `Ваш рахунок становить ${count} `;
       }
     });
   });
@@ -108,4 +108,11 @@ function toUpperFirstLetter(str) {
   return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
-render();
+let click = document.querySelector(".burger.navigation.trueFalse");
+let menuBtn = document.querySelector(".menu-btn");
+let menu = document.querySelector(".menu");
+click.addEventListener("click", function () {
+  menuBtn.classList.toggle("active");
+  menu.classList.toggle("active");
+  render();
+});
