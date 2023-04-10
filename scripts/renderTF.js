@@ -37,9 +37,9 @@ function render() {
   cont.innerHTML = `
 <div class="content">
     <div class="card">
-        <h1 class="card-header" >Слово з теми: ${toUpperFirstLetter(
+        <h1 class="card-header" >Слово з теми: <span class="bold">${toUpperFirstLetter(
           postsData[correctNumberOfTopic].topic
-        )}</h1>
+        )}</span ></h1>
         <h1 class="romanian-word">${toUpperFirstLetter(
           postsData[correctNumberOfTopic].words[correctNumberOfWord].rom
         )}</h1>

@@ -13,9 +13,9 @@ function render() {
   cont.innerHTML = `
 <div class="content">
     <div class="card">
-        <h1 class="card-header" >Слово з теми: ${toUpperFirstLetter(
+        <h1 class="card-header" >Слово з теми: <span class="bold">${toUpperFirstLetter(
           postsData[numberOfTopic].topic
-        )}</h1>
+        )}</span></h1>
         <h1 class="romanian-word">${toUpperFirstLetter(
           postsData[numberOfTopic].words[numberOfWord].rom
         )}</h1>
@@ -24,8 +24,8 @@ function render() {
         }"/>
     </div>
 </div>
-<button class="submit">asd</button>
-<input type="submit" value="Podskazka" class="writeSubmitHint" style="display:none">
+<button class="submit">Перевірка</button>
+<input type="submit" value="Підказка" class="writeSubmitHint" style="display:none">
 <h2 class="rating">У вас ${count} балів</h2>
 
     `;

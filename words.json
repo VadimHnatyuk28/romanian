@@ -33,6 +33,114 @@
       {
         "rom": "Farmacist",
         "ukr": "Фармацевт"
+      },
+      {
+        "rom": "Electrician",
+        "ukr": "електрик"
+      },
+      {
+        "rom": "Mecanic",
+        "ukr": "Механік"
+      },
+      {
+        "rom": "Programator",
+        "ukr": "Програміст"
+      },
+      {
+        "rom": "judecător",
+        "ukr": "суддя"
+      },
+      {
+        "rom": "veterinar, veterinară",
+        "ukr": "ветеринар"
+      },
+      {
+        "rom": "artist, artistă",
+        "ukr": "митець"
+      },
+      {
+        "rom": "pictor",
+        "ukr": "художник"
+      },
+      {
+        "rom": "profesor",
+        "ukr": "професор"
+      },
+      {
+        "rom": "profesoară",
+        "ukr": "професорка"
+      },
+      {
+        "rom": "președinte",
+        "ukr": "президент"
+      },
+      {
+        "rom": "ministru",
+        "ukr": "міністр"
+      },
+      {
+        "rom": "diplomat",
+        "ukr": "дипломат"
+      },
+      {
+        "rom": "polițist",
+        "ukr": "поліцейский"
+      },
+      {
+        "rom": "salvator",
+        "ukr": "рятувальник"
+      },
+      {
+        "rom": "manager",
+        "ukr": "менеджер"
+      },
+      {
+        "rom": "asistent",
+        "ukr": "асистент"
+      },
+      {
+        "rom": "asistentă",
+        "ukr": "асистентка"
+      },
+      {
+        "rom": "șofer",
+        "ukr": "водій"
+      },
+      {
+        "rom": "sportiv",
+        "ukr": "спортсмен"
+      },
+      {
+        "rom": "director",
+        "ukr": "директор"
+      },
+      {
+        "rom": "economist",
+        "ukr": "економіст"
+      },
+      {
+        "rom": "educatoare",
+        "ukr": "вихователька"
+      },
+      {
+        "rom": "funcționar / muncitor",
+        "ukr": "працівник"
+      },
+      {
+        "rom": "vânzător",
+        "ukr": "продавець"
+      },
+      {
+        "rom": "jurist",
+        "ukr": "юрист"
+      },
+      {
+        "rom": "casnică",
+        "ukr": "домогосподарка"
+      },
+      {
+        "rom": "conducător",
+        "ukr": "керівник"
       }
     ]
   },
@@ -132,6 +240,47 @@
       {
         "rom": "frate",
         "ukr": "брат"
+      }
+    ]
+  },
+  {
+    "topic": "fructe/legume",
+    "words": [
+      {
+        "rom": "produs",
+        "ukr": "продукт"
+      },
+      {
+        "rom": "legumă",
+        "ukr": "овоч"
+      },
+      {
+        "rom": "fruct",
+        "ukr": "фрукт"
+      },
+      {
+        "rom": "cartof",
+        "ukr": "картопля"
+      },
+      {
+        "rom": "roșie",
+        "ukr": "помідора"
+      },
+      {
+        "rom": "salată",
+        "ukr": "салат"
+      },
+      {
+        "rom": "varză",
+        "ukr": "капуста"
+      },
+      {
+        "rom": "castraveț",
+        "ukr": "огірок"
+      },
+      {
+        "rom": "dovleac",
+        "ukr": "кабачок"
       }
     ]
   }

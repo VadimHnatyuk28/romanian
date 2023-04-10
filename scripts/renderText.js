@@ -15,11 +15,12 @@ function render() {
   postsData.forEach((element) => {
     console.log(element);
     let card = `<div class="text-card">
-        <h1>${toUpperFirstLetter(element.title)}</h1>
+        <h1 class="bold">${toUpperFirstLetter(element.title)}</h1>
         <h2>Amount of sentences ${element.sentence.length}</h2>
+        <div class="btn-cont">
         <button class="text-btn"data-number=${postsData.indexOf(
           element
-        )}>Open</button>
+        )}>Open</button></div>
       </div>`;
     document.querySelector(".word-content").innerHTML += card;
   });
@@ -47,17 +48,19 @@ mainBtn.addEventListener("click", function () {
 function renderCurrentText(number) {
   let countOfSentence = 1;
   cont.style.display = "block";
-  cont.innerHTML = `<h1>${toUpperFirstLetter(postsData[number].title)}</h1>`;
+  cont.innerHTML = `<h1 class="bold">${toUpperFirstLetter(
+    postsData[number].title
+  )}</h1>`;
   cont.innerHTML += `<div class="text-container"></div>`;
   let textCont = document.querySelector(".text-container");
   postsData[number].sentence.forEach((element) => {
-    textCont.innerHTML += `<p class="text-current-sentence">${countOfSentence} ${element}</p>`;
+    textCont.innerHTML += `<p class="text-current-sentence">${countOfSentence}. ${element}</p>`;
     countOfSentence++;
   });
-  cont.innerHTML += `<input type="button" value="Submit" class="subm" />
+  cont.innerHTML += `<input type="button" value="Submit" class="submit" />
   </form>`;
 
-  let subm = document.querySelector(".subm");
+  let subm = document.querySelector(".submit");
   let inps = document.querySelectorAll(".input_value");
 
   subm.addEventListener("click", (e) => {

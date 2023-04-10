@@ -1,5 +1,37 @@
 [
   {
+    "title": "Acasã",
+    "sentence": [
+      "Sunt acasã. În apartament <input type=\"text\" class=\"input_value\" placeholder=\"sunt/este\" data-right=\"sunt\" /> : un antreu, o bucãtãrie, un dormitor,un salon și o baie. În antreu <input type=\"text\" class=\"input_value\" placeholder=\"sunt/este\" data-right=\"este\" /> un cuier.",
+      "Lângã cuier este o oglindã. Pe noptierã <input type=\"text\" class=\"input_value\" placeholder=\"sunt/este\" data-right=\"este\" /> un telefon. În bucãtãrie <input type=\"text\" class=\"input_value\" placeholder=\"sunt/este\" data-right=\"sunt\" /> o masã, niște scaune, un frigider, o chiuvetã și mobilã de bucãtãrie."
+    ]
+  },
+  {
+    "title": "second text",
+    "sentence": [
+      "В школі мені <input type=\"text\" class=\"input_value\" placeholder=\"подобатись\" data-right=\"подобається\" математика/>",
+      "Дякую що <input type=\"text\" class=\"input_value\" placeholder=\"зробити\" data-right=\"зробив\" /> мені домашнє завдання",
+      "Іване, ти будеш <input type=\"text\" class=\"input_value\" placeholder=\"ходити\" data-right=\"йти\" /> завтра до школи"
+    ]
+  },
+  {
+    "title": "third text",
+    "sentence": [
+      "В школі мені <input type=\"text\" class=\"input_value\" placeholder=\"подобатись\" data-right=\"подобається\" математика/>",
+      "Дякую що <input type=\"text\" class=\"input_value\" placeholder=\"зробити\" data-right=\"зробив\" /> мені домашнє завдання",
+      "Іване, ти будеш <input type=\"text\" class=\"input_value\" placeholder=\"ходити\" data-right=\"йти\" /> завтра до школи"
+    ]
+  },
+  {
+    "title": "fourth text",
+    "sentence": [
+      "В школі мені <input type=\"text\" class=\"input_value\" placeholder=\"подобатись\" data-right=\"подобається\" математика/>",
+      "Дякую що <input type=\"text\" class=\"input_value\" placeholder=\"зробити\" data-right=\"зробив\" /> мені домашнє завдання",
+      "Іване, ти будеш <input type=\"text\" class=\"input_value\" placeholder=\"ходити\" data-right=\"йти\" /> завтра до школи",
+      "Іване, ти будеш <input type=\"text\" class=\"input_value\" placeholder=\"ходити\" data-right=\"йти\" /> завтра до школи"
+    ]
+  },
+  {
     "title": "first text",
     "sentence": [
       "В школі мені <input type=\"text\" class=\"input_value\" placeholder=\"подобатись\" data-right=\"подобається\" математика/>",
@@ -28,6 +60,7 @@
     "sentence": [
       "В школі мені <input type=\"text\" class=\"input_value\" placeholder=\"подобатись\" data-right=\"подобається\" математика/>",
       "Дякую що <input type=\"text\" class=\"input_value\" placeholder=\"зробити\" data-right=\"зробив\" /> мені домашнє завдання",
+      "Іване, ти будеш <input type=\"text\" class=\"input_value\" placeholder=\"ходити\" data-right=\"йти\" /> завтра до школи",
       "Іване, ти будеш <input type=\"text\" class=\"input_value\" placeholder=\"ходити\" data-right=\"йти\" /> завтра до школи"
     ]
   }

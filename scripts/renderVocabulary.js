@@ -14,17 +14,17 @@ function render() {
         <div class="flip-card">
         <div class="flip-card-inner">
             <div class="flip-card-front">
-            <h1 class="card-header" >Слово з теми: ${toUpperFirstLetter(
+            <h1 class="card-header">Слово з теми: <span class="bold">${toUpperFirstLetter(
               postsData[numberOfTopic].topic
-            )}</h1>
+            )}</span></h1>
             <h1 class="romanian-word">${toUpperFirstLetter(
               postsData[numberOfTopic].words[numberOfWord].rom
             )}</h1>
             </div>
             <div class="flip-card-back">
-            <h1 class="card-header">Слово з теми: ${
+            <h1 class="card-header">Слово з теми: <span class="bold">${toUpperFirstLetter(
               postsData[numberOfTopic].topic
-            }</h1>
+            )}</span></h1>
             <h1 class="ukrainian-word">${toUpperFirstLetter(
               postsData[numberOfTopic].words[numberOfWord].ukr
             )}</h1>
