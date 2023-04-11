@@ -145,39 +145,147 @@
     ]
   },
   {
-    "topic": "Haine",
+    "topic": "Haine/Bijuterii",
     "words": [
       {
-        "rom": "Butoni manșetă",
-        "ukr": "Запонки"
+        "rom": "pantaloni",
+        "ukr": "штани"
       },
       {
-        "rom": "Broșă",
-        "ukr": "Брошка"
+        "rom": "tricou",
+        "ukr": "футболка"
       },
       {
-        "rom": "Lanț",
-        "ukr": "Ланцюжок"
+        "rom": "colanți",
+        "ukr": "легінси"
       },
       {
-        "rom": "Cercei",
-        "ukr": "Сирежки"
+        "rom": "pulover",
+        "ukr": "кофта"
       },
       {
-        "rom": "Brățară",
-        "ukr": "Браслет"
+        "rom": "cămașă",
+        "ukr": "сорочка"
       },
       {
-        "rom": "Colier",
-        "ukr": "Кольє"
+        "rom": "fustă",
+        "ukr": "спідниця"
       },
       {
-        "rom": "Inel",
-        "ukr": "Каблучка"
+        "rom": "pantaloni scurți",
+        "ukr": "шорти"
       },
       {
-        "rom": "Ceas",
-        "ukr": "Годинник"
+        "rom": "rochie",
+        "ukr": "сукня"
+      },
+      {
+        "rom": "mănușe",
+        "ukr": "рукавиці"
+      },
+      {
+        "rom": "ciorapi",
+        "ukr": "шкарпетки"
+      },
+      {
+        "rom": "lengerie de corp",
+        "ukr": "нижня білизна"
+      },
+      {
+        "rom": "cizme",
+        "ukr": "чоботи"
+      },
+      {
+        "rom": "papuci",
+        "ukr": "взуття"
+      },
+      {
+        "rom": "maiou/vestă",
+        "ukr": "майка"
+      },
+      {
+        "rom": "căciulă",
+        "ukr": "шапка"
+      },
+      {
+        "rom": "sacou",
+        "ukr": "куртка"
+      },
+      {
+        "rom": "costum",
+        "ukr": "костюм"
+      },
+      {
+        "rom": "curea/centură",
+        "ukr": "ремінь"
+      },
+      {
+        "rom": "impermeabil",
+        "ukr": "плащ"
+      },
+      {
+        "rom": "pantofi",
+        "ukr": "туфлі"
+      },
+      {
+        "rom": "blugi",
+        "ukr": "джинси"
+      },
+      {
+        "rom": "salopetă",
+        "ukr": "комбінезон"
+      },
+      {
+        "rom": "sutien",
+        "ukr": "бюстгальтер"
+      },
+      {
+        "rom": "pijamă",
+        "ukr": "піжама"
+      },
+      {
+        "rom": "costum de baie",
+        "ukr": "купальник"
+      },
+      {
+        "rom": "ochelari",
+        "ukr": "окуляри"
+      },
+      {
+        "rom": "geantă",
+        "ukr": "сумка"
+      },
+      {
+        "rom": "ceas",
+        "ukr": "годинник"
+      },
+      {
+        "rom": "inel",
+        "ukr": "каблучка"
+      },
+      {
+        "rom": "colier",
+        "ukr": "намисто"
+      },
+      {
+        "rom": "brățară",
+        "ukr": "браслет"
+      },
+      {
+        "rom": "cercei",
+        "ukr": "сережки"
+      },
+      {
+        "rom": "lanț",
+        "ukr": "ланцюжок"
+      },
+      {
+        "rom": "broșă",
+        "ukr": "брошка"
+      },
+      {
+        "rom": "butoni manșetă",
+        "ukr": "запонки"
       }
     ]
   },
