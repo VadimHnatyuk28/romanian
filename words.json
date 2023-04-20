@@ -389,6 +389,379 @@
       {
         "rom": "dovleac",
         "ukr": "кабачок"
+      },
+      {
+        "rom": "ardei",
+        "ukr": "перець"
+      },
+      {
+        "rom": "ardei iute",
+        "ukr": "гострий перець"
+      },
+      {
+        "rom": "porumb",
+        "ukr": "кукурудза"
+      },
+      {
+        "rom": "vânătă",
+        "ukr": "баклажан"
+      },
+      {
+        "rom": "ciuperci",
+        "ukr": "гриби"
+      },
+      {
+        "rom": "ridiche",
+        "ukr": "редис"
+      },
+      {
+        "rom": "ceapă",
+        "ukr": "цибуля"
+      },
+      {
+        "rom": "usturoi",
+        "ukr": "часник"
+      },
+      {
+        "rom": "spanac",
+        "ukr": "шпинат"
+      },
+      {
+        "rom": "morcov",
+        "ukr": "морква"
+      },
+      {
+        "rom": "broсoli",
+        "ukr": "броколі"
+      },
+      {
+        "rom": "măzăre",
+        "ukr": "горох"
+      },
+      {
+        "rom": "conopidă",
+        "ukr": "цвітна капуста"
+      },
+      {
+        "rom": "fasole",
+        "ukr": "фасоля"
+      },
+      {
+        "rom": "busuioc",
+        "ukr": "базилік"
+      },
+      {
+        "rom": "pătrunjel",
+        "ukr": "петрушка"
+      },
+      {
+        "rom": "rozmarin",
+        "ukr": "розмарин"
+      },
+      {
+        "rom": "ardei roșu",
+        "ukr": "паприка"
+      },
+      {
+        "rom": "ghimbir",
+        "ukr": "імбирь"
+      },
+      {
+        "rom": "cireșe",
+        "ukr": "черешня"
+      },
+      {
+        "rom": "zmeură",
+        "ukr": "малина"
+      },
+      {
+        "rom": "pepene",
+        "ukr": "кавун"
+      },
+      {
+        "rom": "măr",
+        "ukr": "яблуко"
+      },
+      {
+        "rom": "pară",
+        "ukr": "груша"
+      },
+      {
+        "rom": "lămâie",
+        "ukr": "лимон"
+      },
+      {
+        "rom": "căpșună",
+        "ukr": "полуниця"
+      },
+      {
+        "rom": "vișine",
+        "ukr": "вишня"
+      },
+      {
+        "rom": "poamă",
+        "ukr": "виноград"
+      },
+      {
+        "rom": "portocală",
+        "ukr": "апельсин"
+      },
+      {
+        "rom": "banană",
+        "ukr": "банан"
+      },
+      {
+        "rom": "mandarină",
+        "ukr": "мандарин"
+      },
+      {
+        "rom": "avocado",
+        "ukr": "авокадо"
+      }
+    ]
+  },
+  {
+    "topic": "cumpărături",
+    "words": [
+      {
+        "rom": "produs",
+        "ukr": "продукт"
+      },
+      {
+        "rom": "marfă",
+        "ukr": "товар"
+      },
+      {
+        "rom": "preț",
+        "ukr": "ціна"
+      },
+      {
+        "rom": "cât coastă?",
+        "ukr": "скільки коштує?"
+      },
+      {
+        "rom": "carne",
+        "ukr": "мʼясо"
+      },
+      {
+        "rom": "carne de pui",
+        "ukr": "курятина"
+      },
+      {
+        "rom": "carne de porc",
+        "ukr": "свинина"
+      },
+      {
+        "rom": "carne de vită",
+        "ukr": "яловичина"
+      },
+      {
+        "rom": "pește",
+        "ukr": "риба"
+      },
+      {
+        "rom": "pește roșu",
+        "ukr": "червона риба"
+      },
+      {
+        "rom": "lapte",
+        "ukr": "молоко"
+      },
+      {
+        "rom": "ou",
+        "ukr": "яйце"
+      },
+      {
+        "rom": "pâine",
+        "ukr": "хліб"
+      },
+      {
+        "rom": "unt",
+        "ukr": "масло"
+      },
+      {
+        "rom": "cașcaval",
+        "ukr": "сир"
+      },
+      {
+        "rom": "crupe",
+        "ukr": "крупа"
+      },
+      {
+        "rom": "urez",
+        "ukr": "рис"
+      },
+      {
+        "rom": "hrișcă",
+        "ukr": "гречка"
+      },
+      {
+        "rom": "macaroane",
+        "ukr": "макарони"
+      },
+      {
+        "rom": "piper",
+        "ukr": "перець"
+      },
+      {
+        "rom": "sare",
+        "ukr": "сіль"
+      },
+      {
+        "rom": "zahăr",
+        "ukr": "цукор"
+      },
+      {
+        "rom": "frișcă",
+        "ukr": "вершки"
+      },
+      {
+        "rom": "iaurt",
+        "ukr": "йогурт"
+      },
+      {
+        "rom": "smântână",
+        "ukr": "сметана"
+      },
+      {
+        "rom": "ulei",
+        "ukr": "олія"
+      },
+      {
+        "rom": "brânză",
+        "ukr": "бринза"
+      },
+      {
+        "rom": "șuncă",
+        "ukr": "шинка"
+      },
+      {
+        "rom": "slănină",
+        "ukr": "сало"
+      },
+      {
+        "rom": "crenvurști",
+        "ukr": "сосиски"
+      },
+      {
+        "rom": "salam",
+        "ukr": "ковбаса"
+      },
+      {
+        "rom": "înghețată",
+        "ukr": "морозиво"
+      },
+      {
+        "rom": "somon",
+        "ukr": "лосось"
+      },
+      {
+        "rom": "crab",
+        "ukr": "краб"
+      },
+      {
+        "rom": "ton",
+        "ukr": "тунець"
+      },
+      {
+        "rom": "crevete",
+        "ukr": "креветки"
+      },
+      {
+        "rom": "brutărie",
+        "ukr": "пекарня"
+      },
+      {
+        "rom": "magazin",
+        "ukr": "магазин"
+      },
+      {
+        "rom": "supermarket",
+        "ukr": "супермаркет"
+      },
+      {
+        "rom": "chiflă",
+        "ukr": "булочка"
+      },
+      {
+        "rom": "plăcintă",
+        "ukr": "пиріг"
+      },
+      {
+        "rom": "tort",
+        "ukr": "торт"
+      },
+      {
+        "rom": "dulceață",
+        "ukr": "варення"
+      },
+      {
+        "rom": "gogoașă",
+        "ukr": "пончик"
+      },
+      {
+        "rom": "fursec/biscuit",
+        "ukr": "печиво"
+      },
+      {
+        "rom": "cafea",
+        "ukr": "кава"
+      },
+      {
+        "rom": "suc",
+        "ukr": "сік"
+      },
+      {
+        "rom": "ceai",
+        "ukr": "чай"
+      },
+      {
+        "rom": "apă",
+        "ukr": "вода"
+      },
+      {
+        "rom": "limonadă",
+        "ukr": "лимонад"
+      },
+      {
+        "rom": "vin",
+        "ukr": "вино"
+      },
+      {
+        "rom": "pungă/pachet",
+        "ukr": "пакет"
+      },
+      {
+        "rom": "cutie",
+        "ukr": "коробка"
+      },
+      {
+        "rom": "separat",
+        "ukr": "окремо"
+      },
+      {
+        "rom": "la pachet",
+        "ukr": "з собою"
+      },
+      {
+        "rom": "plata",
+        "ukr": "рахунок"
+      },
+      {
+        "rom": "bonul",
+        "ukr": "чек"
+      },
+      {
+        "rom": "сuvrig",
+        "ukr": "бублик"
+      },
+      {
+        "rom": "ciocolată",
+        "ukr": "шоколад"
+      },
+      {
+        "rom": "bomboană",
+        "ukr": "цукерка"
       }
     ]
   }
